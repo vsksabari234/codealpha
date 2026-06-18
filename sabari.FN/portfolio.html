@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #222;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #4a90e2, #357ABD);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Section Layout */
+section {
+  background-color: white;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  max-width: 900px;
+}
+
+/* About Section */
+#about img {
+  width: 160px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+  border: 4px solid #4a90e2;
+}
+
+/* Skills */
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 10px;
+  padding: 0;
+  justify-content: center;
+}
+
+#skills li {
+  background-color: #e8f0fe;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+#skills li:hover {
+  background-color: #d0e3ff;
+}
+
+/* Projects */
+.project {
+  margin-bottom: 30px;
+}
+
+.project img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin: 15px 0;
+}
+
+/* Resume */
+#resume a {
+  display: inline-block;
+  background-color: #4a90e2;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+#resume a:hover {
+  background-color: #357ABD;
+}
+
+/* Contact */
+#contact p {
+  font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color: #222;
+  color: white;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
+</style>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>SABARI V</h1>
+    <p class="tagline">Web Developer | Creative Thinker | Problem Solver</p>
+  </header>
+
+  <section id="about">
+    <h2>ABOUT ME</h2>
+    <div class="about-content">
+
+        <img src="sabari.jpeg" alt="photo2" />
+        <p>Hello! I'm Sabari, a passionate web developer with experience in building modern websites and applications using HTML, CSS, and JavaScript.</p>
+  
+    </div>
+
+  
+</section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React.js</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="your-resume.pdf" download>Download My Resume (PDF)</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: vsksabari234@gmail.com</p>
+    <p>Phone: +91 9876543210</p>
+  </section>
+
+  <footer>
+    <p>© Kumaran. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
